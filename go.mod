@@ -40,7 +40,6 @@ require (
 	k8s.io/client-go v0.24.2
 	k8s.io/kubernetes v1.13.0
 	sigs.k8s.io/controller-runtime v0.12.3
-	sigs.k8s.io/controller-tools v0.10.0
 	sigs.k8s.io/yaml v1.3.0
 )
 
