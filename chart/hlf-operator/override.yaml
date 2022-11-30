@@ -1,0 +1,4 @@
+image:
+  repository: registry.cn-shenzhen.aliyuncs.com/easypay/hlf-operator
+  tag: "v1.8.0-1"
+
