@@ -10,7 +10,7 @@ spec:
     - port: {{ .Values.service.port }}
       targetPort: 7050
       protocol: TCP
-      name: grpc
+      name: ord-port
 {{- if .Values.channelParticipationEnabled }}
     - port: 7053
       targetPort: 7053
@@ -26,7 +26,7 @@ spec:
     - port: {{ .Values.service.portOperations }}
       targetPort: 9444
       protocol: TCP
-      name: operations
+      name: ord-operations
   selector:
     app: {{ include "hlf-ordnode.name" . }}
     release: {{ .Release.Name }}
