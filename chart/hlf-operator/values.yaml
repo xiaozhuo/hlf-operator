@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: registry.cn-shenzhen.aliyuncs.com/easypay/hlf-operator
+  repository: quay.io/kfsoftware/hlf-operator
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1.8.0-1"
+  tag: "v1.4.0"
 
 imagePullSecrets: []
 nameOverride: ""
